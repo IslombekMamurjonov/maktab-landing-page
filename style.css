@@ -1,0 +1,230 @@
+/* Navbar */
+.navbar {
+    background-color: grey;
+    border-bottom: 2px solid aqua;
+}
+body {
+    margin: 0;
+}
+.menu li {
+    display: inline-block;
+    padding: 0 35px;
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+.menus:hover {
+    color: aqua;
+}
+
+.menu {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.nav{
+    height: 50%;
+    background-color: black;
+    align-items: center;
+    margin-top: -16px;
+}
+
+/* header  */
+.header {
+    display: flex;
+    width: 90%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    text-align: center;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: -130px;
+}
+.header li {
+    display: inline-block;
+    padding: 0 20px;
+}
+.header li:hover{
+    background-color: black;
+    border-radius: 10px;
+    color: rgb(0, 204, 255);
+}
+
+h1 {
+    color: white;
+}
+span {
+    font-size: large;
+}
+
+/* Container  */
+.container {
+    width: 960px;
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(173, 173, 173);
+}
+
+.images-text {
+    background-image: url(./img/img4.jpg);
+    background-size: cover;
+    height:250px;
+}
+.images-text p {
+    width: 50%;
+}
+.image-text {
+    padding:  20px;
+    color: white;
+    margin: o auto;
+}
+
+/* left  */
+.one h1 {
+    margin: 0;
+    color: black;
+    font-size: 25px;
+}
+.left {
+    width: 65%;
+    padding: 1%;
+}
+
+.image-texts {
+    align-items: center;
+    display: flex;
+}
+
+.image-texts h4 {
+    color: white;
+    background-color: aqua;
+    height: 20px;
+    text-align: center;
+}
+
+.image-texts img {
+    width: 200px;
+    height: 150px;
+    padding-right: 10px;
+
+}
+.texts p {
+    color: grey;
+}
+
+/* two  */
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: grey;
+    height: 35px;
+}
+.two h4 {
+    padding: 0 10px;
+}
+.rigth li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.rigth li:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+/* THREE  */
+.three h1 {
+    margin-bottom: 0;
+    font-size: 25px;
+    color: black;
+}
+.left {
+    width: 60%;
+    padding: 1%;
+}
+
+.image-texts {
+    align-items: center;
+    display: flex;
+}
+
+.image-texts h4 {
+    color: white;
+    background-color: aqua;
+    height: 20px;
+    text-align: center;
+}
+
+.image-texts img {
+    width: 200px;
+    height: 150px;
+    padding-right: 10px;
+
+}
+.texts p {
+    color: grey;
+}
+
+/* Footer  */
+.footer {
+    display: flex;
+}
+
+/* RIGHT  */
+.right {
+    padding: 0 2%;
+}
+
+.search {
+    background-color: rgb(201, 201, 201);
+    width: 350px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+
+.search input {
+    margin: 0 auto;
+    width: 80%;
+    border: 0;
+}
+button {
+    border: 0.1px solid rgba(34, 34, 34, 0.226);
+    background-color:  aqua;
+    color: white
+}
+
+/* rasmlar */
+.imager img {
+    width: 170px;
+    height: 100px;
+    padding: 1px;
+}
+.imagers {
+    background-color: rgb(201, 201, 201);
+    width: 350px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.imagers h2 {
+    margin-top: 0;
+}
+
+.imagers p {
+    text-align: center;
+    /* margin: o auto; */
+    color: rgb(110, 110, 110);
+}
